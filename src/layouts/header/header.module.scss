@@ -1,0 +1,23 @@
+.Wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLogo {
+    font-family: 'Caprasimo';
+    font-size: 32px;
+}
+
+.groupMenu {
+    display: flex;
+    align-items: center;
+}
+
+.menuItem {
+    cursor: pointer;
+    margin-right: 40px;
+
+    &.item4 {
+        margin-right: 0;
+    }
+}

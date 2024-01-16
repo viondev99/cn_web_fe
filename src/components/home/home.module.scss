@@ -1,0 +1,43 @@
+.Wrapper {
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.projectName {
+  font-family: "kanit";
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.tableWrapper {
+  width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  min-height: 445px;
+}
+
+.headerTable {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tableName {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.createNew {
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+
+    &:hover {
+        background-color: orange;
+    }
+}

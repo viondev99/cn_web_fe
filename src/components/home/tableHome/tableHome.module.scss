@@ -1,0 +1,63 @@
+.rowIndex {
+  width: 3%;
+}
+
+.action {
+  text-align: center;
+}
+
+@keyframes loader {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+.loader div {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border: 10px solid blue;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: loader 1s linear infinite;
+  top: 45px;
+  left: 45px;
+}
+.animationLoading {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  overflow: hidden;
+}
+.loader {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(0.4);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+
+.relativeTbody {
+  position: relative;
+  height: 160px;
+}
+
+.absoluteLoader {
+  position: absolute;
+}
+
+.loaderTbody {
+  left: 48%;
+}
+
+.relativePagination {
+  height: 80px;
+}
+
+.pagination {
+  position: absolute;
+  top: 30%
+}
